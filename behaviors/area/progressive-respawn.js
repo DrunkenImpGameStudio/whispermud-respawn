@@ -1,7 +1,8 @@
 'use strict';
 
-const { Logger } = require('whispermud-core');
+const { Logger, Config } = require('whispermud-core');
 const { Random } = require('rando-js');
+
 
 /**
  * Behavior for having a constant respawn tick happening every [interval]
